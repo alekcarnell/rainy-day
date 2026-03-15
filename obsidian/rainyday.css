@@ -1,0 +1,68 @@
+/*
+Theme: Rainy Day
+Creative Commons Attribution-NonCommercial 4.0 License
+Copyright (c) 2026 Alek Carnell
+https://github.io/alekcarnell
+
+Description:
+This theme is inspired by the GMK Rainy Day keycap set that I
+created back in 2018. The palette is based off of a desaturated
+blue and blue-grays. 
+*/
+
+.theme-light {
+  --color-base-00: oklch(0.973 0.009 205.71);   /* note body background, modal background*/
+  --color-base-05: oklch(0.9 0.034 207.96);     /* focused title bar */
+  --color-base-10: oklch(0.947 0.017 210.1);    /* codeblock BG, modal group background, keyboard shortcut pill-box background */
+  --color-base-20: oklch(0.947 0.017 210.1);    /* navigation BG, inactive window BG */
+  --color-base-25: oklch(0.617 0.031 207.4);    /* Input field background */
+
+  --color-base-30: oklch(0.9 0.034 207.96);     /* Borders */
+  --color-base-35: oklch(0.515 0.025 207.01);   /* slider button background, tab dividers */
+  --color-base-40: oklch(0.617 0.031 207.4);    /* modal border */
+
+  --color-base-50: oklch(0.515 0.025 207.01);   /* muted text, inactive tabs, chevons, bullet points, code block comments, numbered lists, settings categories, input text */
+  --color-base-60: oklch(0.515 0.025 207.01); 
+  --color-base-70: oklch(0.515 0.025 207.01);   /* navigation text, tab text, icon colors */
+  --color-base-100: oklch(0.515 0.025 207.01);  /* main text */
+
+  --my-heading: oklch(0.421 0.021 205.16);
+
+  --h1-color: var(--my-heading);
+  --h2-color: var(--my-heading);
+  --h3-color: var(--my-heading);
+  --h4-color: var(--my-heading);
+  --h5-color: var(--my-heading);
+  --h6-color: var(--my-heading);
+}
+
+.theme-dark {
+  --color-base-00: oklch(0.185 0.009 208.74);     /* note body background, modal background*/
+  --color-base-05: oklch(0.185 0.009 208.74);     /* focused title bar */
+  --color-base-10: oklch(0.232 0.012 205.7);      /* codeblock BG, modal group background, keyboard shortcut pill-box background */
+  --color-base-20: oklch(0.232 0.012 205.7);      /* navigation BG, inactive window BG */
+  --color-base-25: oklch(0.327 0.016 208.74);     /* Input field background */
+
+  --color-base-30: oklch(0.327 0.016 208.74);     /* Borders */
+  --color-base-35: oklch(0.515 0.025 207.01);     /* slider button background, tab dividers */
+  --color-base-40: oklch(0.617 0.031 207.4);      /* modal border */
+
+  --color-base-50: oklch(0.807 0.041 206.18);     /* muted text, inactive tabs, chevons, bullet points, code block comments, numbered lists, settings categories, input text */
+  --color-base-60: oklch(0.807 0.041 206.18);
+  --color-base-70: oklch(0.9 0.034 207.96);       /* navigation text, tab text, icon colors */
+  --color-base-100: oklch(0.9 0.034 207.96);      /* main text */
+
+  --my-heading: oklch(0.947 0.017 210.1);
+
+  --h1-color: var(--my-heading);
+  --h2-color: var(--my-heading);
+  --h3-color: var(--my-heading);
+  --h4-color: var(--my-heading);
+  --h5-color: var(--my-heading);
+  --h6-color: var(--my-heading);
+}
+
+
+
+
+
